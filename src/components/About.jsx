@@ -63,7 +63,7 @@ const About = () => {
         </motion.div>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-8 text-secondary text-[20px] max-w-4xl font-semibold mb-18 leading-[50px]"
+          className="mt-8 text-secondary text-[20px] max-w-4xl font-light mb-18 leading-[40px] lg:leading-[50px]"
         >
           I am a second-year BCA student with a strong focus on web development.
           I am dedicated to honing my skills and am currently engaged in
@@ -78,7 +78,7 @@ const About = () => {
         <Image
           src={astronaut}
           alt="astronaut"
-          className="absolute z-[-1] h-80 -right-20 animation top-28"
+          className="absolute z-[-1] h-60 lg:h-80 -right-20 animation top-28"
         />
       </div>
 

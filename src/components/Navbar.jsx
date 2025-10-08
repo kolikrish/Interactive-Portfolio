@@ -46,7 +46,7 @@ const Navbar = () => {
           }}
         >
           <Image src={logo} alt='logo' className='w-12 h-12 object-contain' />
-          <p className='text-white text-[29px] font-bold cursor-pointer flex relative right-2 '>
+          <p className='text-white text-[29px] font-bold cursor-pointer flex relative right-1 '>
             rish koli &nbsp;
             <span className='sm:block hidden'> </span>
           </p>
@@ -66,7 +66,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='sm:hidden flex flex-1 justify-end items-center cursor-pointer'>
           <Image
             src={toggle ? close : menu}
             alt='menu'

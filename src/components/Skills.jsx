@@ -34,8 +34,8 @@ function Skills({ name, icon, index }) {
         >
           <img title={name}
             alt={name}
-            width={85}
-            height={85}
+            width={75}
+            height={75}
             src={icon.src}
             className="cursor-pointer object-cover"
           />
